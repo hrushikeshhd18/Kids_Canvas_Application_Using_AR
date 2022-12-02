@@ -12,7 +12,7 @@ class _SettingState extends State<Setting> {
   final flutterWebviewPlugin = new PrivacyPolicy();
 
   _openMap() async {
-    const url =  "https://play.google.com/store/apps/details?id=" + "com.example.kids";
+    const url =  "https://play.google.com/store/apps/details?id=" + "com.hdsh.kids";
     if (await canLaunch(url)) {
       await launch(url);
     } else {
@@ -20,7 +20,7 @@ class _SettingState extends State<Setting> {
     }
   }
   _Share() async{
-    FlutterShare.share(title: 'SHare',linkUrl: "https://play.google.com/store/apps/details?id=" + "com.example.kids");
+    FlutterShare.share(title: 'SHare',linkUrl: "https://play.google.com/store/apps/details?id=" + "com.hdsh.kids");
   }
   @override
   Widget build(BuildContext context) {

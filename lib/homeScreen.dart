@@ -14,7 +14,7 @@ class HomeScreen extends StatefulWidget{
 }
 class _HomeScreenState extends State<HomeScreen> {
 
-  String url = "https://play.google.com/store/apps/details?id=" + "com.example.kids";
+  String url = "https://play.google.com/store/apps/details?id=" + "com.hdsh.kids";
    int index;
 @override
   void initState() {
