@@ -1,9 +1,17 @@
+//import 'package:flutter/material.dart';
+//import 'package:flutter/services.dart';
+//import 'bottomnavigation.dart';
+//import 'package:responsive_framework/responsive_framework.dart';
+
+
+
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:responsive_framework/responsive_wrapper.dart';
+import 'package:responsive_framework/utils/scroll_behavior.dart';
+
 import 'bottomnavigation.dart';
-import 'package:responsive_framework/responsive_framework.dart';
-
-
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
